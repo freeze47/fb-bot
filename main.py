@@ -19,7 +19,7 @@ target_page = get_page_by_interface()
 options = Options()
 
 options.add_argument('start-maximized')
-options.add_argument("user-data-dir=C:\\Users\\boura\\AppData\\Local\\Google\\Chrome\\User Data")
+options.add_argument("")
 
 svc = webdriver.ChromeService(executable_path=binary_path)
 driver = webdriver.Chrome(service=svc, options=options)
